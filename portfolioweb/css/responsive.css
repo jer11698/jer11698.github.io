@@ -1,0 +1,24 @@
+@media only screen and (max-width: 992px) {
+  .header-style .menu .navbar {
+    padding: 1rem 20rem;
+  }
+}
+
+@media only screen and (max-width: 918px) {
+  
+  .main-style .banner .title h1 {
+    text-align:start;
+  }
+  
+  .main-style .banner .img-show {
+    display: none;
+  }
+
+  .about-style h2 {
+    text-align: center;
+  }
+
+  .about-style .paragraph {
+    text-align: center;
+  }
+}

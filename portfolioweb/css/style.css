@@ -1,0 +1,151 @@
+@import url(./_global.css);
+@import url(./responsive.css);
+
+/* Navbar */
+
+.header-style .menu .navbar {
+  padding: 1rem;
+}
+
+.header-style .menu .navbar .nav-item a {
+  color: var(--tuscan-red);
+}
+
+.header-style .menu .navbar .nav-item a:hover {
+  color: var(--new-york-pink);
+}
+
+.header-style .menu .navbar .nav-item .nav-link {
+  padding: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Banner */
+.main-style .banner {
+  padding: 0.5rem 0 8rem 0;
+}
+
+.main-style .banner .title h3 {
+  padding-top: 35%;
+  font-size: 2rem;
+}
+
+.main-style .banner .title h1 {
+  font-size: 3.6rem;
+  text-align: end;
+}
+
+.main-style .banner .title h4 {
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.main-style .banner img {
+  padding: 0.1rem 0;
+}
+
+/* About */
+.about-style {
+  padding: 8rem 0;
+}
+
+.about-style h2 {
+  font-size: 6rem !important;
+}
+
+.about-style .paragraph {
+  font-size: 1.3rem;
+}
+
+/* skill */
+.skill-style {
+  padding: 8rem 0;
+}
+
+.main-style > .skill-style .skill {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 1.5rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.main-style > .skill-style .skill:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.skill-style .skill .card-text:nth-child(0) {
+  height: 10rem;
+}
+
+/* Education */
+.education-style {
+  padding: 8rem 0;
+}
+.education-style .image-hero {
+  position: relative;
+  padding: 0;
+}
+
+.education-style .image-hero img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  height: 42rem;
+}
+
+.education-style .image-hero .info-overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  width: 30rem;
+  height: 15rem;
+  padding: 1.5rem 0;
+}
+
+.education-style .image-hero:hover img {
+  opacity: 0.5;
+}
+
+.education-style .image-hero:hover .info-overlay {
+  opacity: 1;
+}
+
+.education-style .image-hero .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 20px black;
+}
+
+.education-style .info-overlay ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contect */
+
+.contect-style .box-contect {
+  padding: 3rem 0 9rem 0;
+}
+
+footer .footer-style {
+  background-color: var(--tuscan-red);
+  padding: 6rem 0;
+  margin-top: 3rem;
+  text-align: center;
+  color: aliceblue;
+  box-shadow: 5px -9px 8px rgba(57, 56, 61, 0.205);
+}
